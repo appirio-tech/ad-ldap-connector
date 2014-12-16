@@ -2,10 +2,10 @@
   "name": "sql-fs",
   "version": "2.21.3",
   "description": "ADLDAP Federation Connector",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 50000 --reporter spec",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

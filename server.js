@@ -1,3 +1,4 @@
+exports.init = function () {
 require('./lib/initConf');
 require('colors');
 require('./eventlog');
@@ -113,4 +114,4 @@ connectorSetup.run(__dirname, function(err) {
   }
 
   console.log('listening on port: ' + nconf.get('PORT'));
-});
+});}
