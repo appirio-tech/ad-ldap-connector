@@ -1,3 +1,4 @@
+exports.init = function () {
 require('colors');
 require('./eventlog');
 require('./lib/setupProxy');
@@ -112,4 +113,4 @@ connectorSetup.run(__dirname, function(err) {
   }
 
   console.log('listening on port: ' + nconf.get('PORT'));
-});
+});}
