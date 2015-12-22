@@ -1,7 +1,7 @@
 var cluster = require('cluster');
 var winston = require('winston');
 var server = require('./server.js');
-var workers = require('os').cpus().length;
+var workers = 1;
 
 winston.add(winston.transports.File, { filename: 'cluster.log' });
 winston.log('info', 'starting cluster');
